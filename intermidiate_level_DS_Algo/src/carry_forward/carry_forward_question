@@ -1,0 +1,211 @@
+Q1. Special Subsequences "AG"
+Q2. Closest MinMax
+Q3. Bulbs
+
+
+
+
+---------------------------------------------------------
+Q1. Special Subsequences "AG"
+
+Problem Description
+
+You have given a string A having Uppercase English letters.
+
+You have to find how many times subsequence "AG" is there in the given string.
+
+NOTE: Return the answer modulo 109 + 7 as the answer can be very large.
+
+
+
+Problem Constraints
+
+1 <= length(A) <= 105
+
+
+
+Input Format
+
+First and only argument is a string A.
+
+
+
+Output Format
+
+Return an integer denoting the answer.
+
+
+
+Example Input
+
+Input 1:
+
+ A = "ABCGAG"
+Input 2:
+
+ A = "GAB"
+
+
+Example Output
+
+Output 1:
+
+ 3
+Output 2:
+
+ 0
+
+
+Example Explanation
+
+Explanation 1:
+
+ Subsequence "AG" is 3 times in given string
+Explanation 2:
+
+ There is no subsequence "AG" in the given string.
+
+
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+Arg 1: A single String, For e.g 'anagram'
+
+--------------------------------------------------------------
+Q2. Closest MinMax
+
+Problem Description
+
+Given an array A, find the size of the smallest subarray such that it contains at least one occurrence of the maximum value of the array
+
+and at least one occurrence of the minimum value of the array.
+
+
+
+Problem Constraints
+
+1 <= |A| <= 2000
+
+
+
+Input Format
+
+First and only argument is vector A
+
+
+
+Output Format
+
+Return the length of the smallest subarray which has at least one occurrence of minimum and maximum element of the array
+
+
+
+Example Input
+
+Input 1:
+
+A = [1, 3, 2]
+Input 2:
+
+A = [2, 6, 1, 6, 9]
+
+
+Example Output
+
+Output 1:
+
+ 2
+Output 2:
+
+ 3
+
+
+Example Explanation
+
+Explanation 1:
+
+ Take the 1st and 2nd elements as they are the minimum and maximum elements respectievly.
+Explanation 2:
+
+ Take the last 3 elements of the array.
+
+
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+Arg 1: An Integer Array, For e.g [1,2,3]
+
+// ----------------------------------------------------------
+Q3. Bulbs
+Problem Description
+
+A wire connects N light bulbs.
+
+
+Each bulb has a switch associated with it; however, due to faulty wiring, a switch also changes the state of all the bulbs to the right of the current bulb.
+
+Given an initial state of all bulbs, find the minimum number of switches you have to press to turn on all the bulbs.
+
+You can press the same switch multiple times.
+
+Note: 0 represents the bulb is off and 1 represents the bulb is on.
+
+
+
+
+Problem Constraints
+
+0 <= N <= 5×105
+0 <= A[i] <= 1
+
+
+
+Input Format
+
+The first and the only argument contains an integer array A, of size N.
+
+
+
+Output Format
+
+Return an integer representing the minimum number of switches required.
+
+
+
+Example Input
+
+Input 1:
+
+ A = [0, 1, 0, 1]
+Input 2:
+
+ A = [1, 1, 1, 1]
+
+
+Example Output
+
+Output 1:
+
+ 4
+Output 2:
+
+ 0
+
+
+Example Explanation
+
+Explanation 1:
+
+ press switch 0 : [1 0 1 0]
+ press switch 1 : [1 1 0 1]
+ press switch 2 : [1 1 1 0]
+ press switch 3 : [1 1 1 1]
+Explanation 2:
+
+ There is no need to turn any switches as all the bulbs are already on.
+
+
+
+Expected Output
+Provide sample input and click run to see the correct output for the provided input. Use this to improve your problem understanding and test edge cases
+Arg 1: An Integer Array, For e.g [1,2,3]
