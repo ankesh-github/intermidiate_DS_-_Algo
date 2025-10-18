@@ -1,3 +1,4 @@
+/*
 package coding_practice.java8;
 
 import java.time.LocalDate;
@@ -86,13 +87,14 @@ public class LambdaExample {
     }
 
     private static List<Employee> getEmployeeList() {
-        Employee emp1 = new Employee("Alice", 30, 50000, "HR");
-        Employee emp2 = new Employee("Bob", 25, 60000, "IT");
-        Employee emp3 = new Employee("Charlie", 35, 70000, "Finance");
-        Employee emp4 = new Employee("Alice1", 20, 40000, "HR");
-        Employee emp5 = new Employee("Bob1", 15, 20000, "IT");
-        Employee emp6 = new Employee("Charlie1", 45, 80000, "Marketing");
+        Employee emp1 = new Employee(1,"Alice", 30, 50000, "HR");
+        Employee emp2 = new Employee(2,"Bob", 25, 60000, "IT");
+        Employee emp3 = new Employee(3,"Charlie", 35, 70000, "Finance");
+        Employee emp4 = new Employee(4,"Alice1", 20, 40000, "HR");
+        Employee emp5 = new Employee(5,"Bob1", 15, 20000, "IT");
+        Employee emp6 = new Employee(6,"Charlie1", 45, 80000, "Marketing");
 
         return Arrays.asList(emp1, emp2, emp3, emp4, emp5, emp6);
     }
 }
+*/
